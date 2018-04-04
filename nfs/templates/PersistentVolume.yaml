@@ -10,7 +10,7 @@ metadata:
   name: {{ template "nfs.fullname" . }}
 spec:
   capacity:
-    storage: 1Mi
+    storage: 20Gi
   accessModes:
     - ReadWriteMany
   nfs:
